@@ -16,7 +16,7 @@ namespace ProyectoSen
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Tecnico());
+            Application.Run(new Login());
         }
     }
 }

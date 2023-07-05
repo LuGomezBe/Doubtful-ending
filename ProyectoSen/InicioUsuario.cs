@@ -176,6 +176,7 @@ namespace ProyectoSen
         {
             Clases.CReporte objetoReporte = new Clases.CReporte();
             objetoReporte.BuscarReporte(dgvReporte, cmbBuscarR);
+            
         }
 
         private void btnClienteB_Click(object sender, EventArgs e)
@@ -311,14 +312,14 @@ namespace ProyectoSen
         {
             if (cmbBuscarR.Text == "")
             {
-                cmbBuscarR.Text = "Ingrese DNI Tecnico";
+                cmbBuscarR.Text = "Ingrese Nombre del Tecnico";
                 cmbBuscarR.ForeColor = Color.LightSteelBlue;
             }
         }
 
         private void cmbBuscarR_Enter(object sender, EventArgs e)
         {
-            if (cmbBuscarR.Text == "Ingrese DNI Tecnico")
+            if (cmbBuscarR.Text == "Ingrese Nombre del Tecnico")
             {
                 cmbBuscarR.Text = "";
                 cmbBuscarR.ForeColor = Color.Black;

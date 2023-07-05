@@ -329,7 +329,7 @@
             this.cmbBuscarR.Name = "cmbBuscarR";
             this.cmbBuscarR.Size = new System.Drawing.Size(417, 36);
             this.cmbBuscarR.TabIndex = 58;
-            this.cmbBuscarR.Text = "Ingrese DNI Tecnico";
+            this.cmbBuscarR.Text = "Ingrese Nombre del Tecnico";
             this.cmbBuscarR.Enter += new System.EventHandler(this.cmbTec_Enter);
             this.cmbBuscarR.Leave += new System.EventHandler(this.cmbTec_Leave);
             // 

@@ -227,7 +227,6 @@
             this.dgvPrincipal.RowHeadersWidth = 51;
             this.dgvPrincipal.Size = new System.Drawing.Size(1278, 186);
             this.dgvPrincipal.TabIndex = 29;
-
             // 
             // btnBuscar
             // 
@@ -435,7 +434,7 @@
             this.cmbBuscarR.Name = "cmbBuscarR";
             this.cmbBuscarR.Size = new System.Drawing.Size(417, 36);
             this.cmbBuscarR.TabIndex = 59;
-            this.cmbBuscarR.Text = "Ingrese DNI Tecnico";
+            this.cmbBuscarR.Text = "Ingrese Nombre del Tecnico";
             this.cmbBuscarR.Enter += new System.EventHandler(this.cmbBuscarR_Enter);
             this.cmbBuscarR.Leave += new System.EventHandler(this.cmbBuscarR_Leave);
             // 

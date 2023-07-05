@@ -158,13 +158,13 @@ namespace ProyectoSen.Clases
                 MessageBox.Show("No se Reseto los datos de la base de datos, error " + ex.ToString());
             }
         }
-        public void BuscarReporte(DataGridView tablaReporte, ComboBox Dni_t)
+        public void BuscarReporte(DataGridView tablaReporte, ComboBox Nombre_T)
         {
             try
             {
                 CConexion objetoConexion = new CConexion();
 
-                String query = "Select * from Reporte where DNI_Tecnico ='" + Dni_t.Text + "';";
+                String query = "Select * from Reporte where Nombre_Tecnico ='" + Nombre_T.Text + "';";
                 tablaReporte.DataSource = null;
                 MySqlDataAdapter adapter = new MySqlDataAdapter(query, objetoConexion.establecerConexion());
                 DataTable dt = new DataTable();
